@@ -1,0 +1,107 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #f6f8fa;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 480px;
+  margin: 3rem auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.07);
+  padding: 2rem;
+}
+
+h1 {
+  margin-top: 0;
+  text-align: center;
+  font-weight: 700;
+}
+
+.route-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+}
+
+.route-form label {
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.stop-row {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.stop-row input {
+  flex: 1;
+}
+
+.route-form input[type="text"] {
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #d0d7de;
+}
+
+.route-form button[type="button"] {
+  padding: 0.3rem 0.7rem;
+  border: none;
+  border-radius: 5px;
+  background: #eaecef;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.route-form button[type="button"]:hover {
+  background: #d0d7de;
+}
+
+.route-form button[type="submit"] {
+  padding: 0.7rem;
+  border: none;
+  border-radius: 6px;
+  background: #2da44e;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.route-form button[type="submit"]:hover {
+  background: #218838;
+}
+
+.error {
+  background: #ffd2d2;
+  color: #850000;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-top: 1.5rem;
+  font-weight: 500;
+}
+
+.result {
+  background: #e6ffed;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.result ol {
+  padding-left: 1.5rem;
+}
+
+footer {
+  margin-top: 2.6rem;
+  text-align: center;
+  color: #888;
+  font-size: 0.88rem;
+}
